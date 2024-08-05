@@ -46,7 +46,6 @@ window.addEventListener("scroll", () => {
 document.addEventListener("mousemove", (e) => {
   const header = document.getElementById("header");
   if (header.classList.contains("active")) {
-    console.log("ad");
     const image = document.getElementById("rotateImage");
     const { clientX: mouseX } = event;
 
